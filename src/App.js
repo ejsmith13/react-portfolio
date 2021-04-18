@@ -5,7 +5,7 @@ import Projects from "./pages/projects";
 import Wrapper from "./components/wrapper";
 import NavBar from "./components/header";
 import "./stylesheets/style.css";
-import "./App.css";
+
 
 function App() {
   return (
