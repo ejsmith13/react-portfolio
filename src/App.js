@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from './pages/about'
 import Contact from './pages/contact'
 import Projects from './pages/projects'
 import Wrapper from './components/wrapper'
 import NavBar from './components/header'
+import './stylesheets/style.css';
 import './App.css';
 
 function App() {

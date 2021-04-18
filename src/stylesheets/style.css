@@ -1,0 +1,50 @@
+body {
+    background-image: url("../assets/images/background.jpg") ;
+   
+  }
+  button {
+    margin-top: 10px;
+  }
+  figure {
+    text-align: center;
+  }
+  nav {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #eee;
+    margin: 10%;
+    width: 60%;
+    border-radius: 10px;
+    
+  }
+  
+  #headshot {
+    width: 200px;
+    height: auto;
+  }
+  #linksContainer {
+    all: none;
+    margin: auto;
+  }
+  #resume {
+    font-size: large;
+  }
+  #linkedIn {
+    font-size: large;
+  }
+  #github {
+    font-size: large;
+  }
+  
+  /* styling for xs screens */
+  @media screen and (max-width: 440px) {
+    .container {
+      width: 100%;
+      margin: 10% auto;
+    }
+  }
+  
