@@ -30,7 +30,7 @@ const About = () => {
             </p>
             <p>
               In my free time, I enjoy spending time outdoors. My favorite
-              activities include hiking, skiing, and hunting. I am always
+              activities include hiking, skiing, and exploring new places. I am always
               excited to try new things and meet new people. If you would like
               to contact me please use links below or the form on the contact
               page.
