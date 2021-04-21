@@ -11,6 +11,10 @@ body {
   form{
     margin-left: 20%;
   }
+  footer{
+    color: white;
+    text-align: center;
+  }
   nav {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;

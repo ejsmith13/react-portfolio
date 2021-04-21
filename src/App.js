@@ -4,6 +4,7 @@ import Contact from "./pages/contact";
 import Projects from "./pages/projects";
 import Wrapper from "./components/wrapper";
 import NavBar from "./components/header";
+import Footer from "./components/footer"
 import "./stylesheets/style.css";
 
 
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
+        
         <Wrapper>
           <Switch>
             <Route exact path={["/react-portfolio", "/", "/about"]} component={About} />
@@ -19,6 +21,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
           </Switch>
         </Wrapper>
+        <Footer/>
       </div>
     </Router>
   );
