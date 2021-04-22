@@ -34,9 +34,13 @@
 --------------------------------------
 
   ## Screenshots:
+[Deployed Site](https://ejsmith13.github.io/react-portfolio/)
 
-
+![Home Page](assets/images/screenshot_react_portfolio_home.png)
   
+![Projects Page](assets/images/screenshot_react_portfolio_projects.png)
+
+![Contact Page](assets/images/screenshot_react_portfolio_contact.png)
 
   
 --------------------------------------
@@ -82,7 +86,7 @@
   For this project I used:
 
 
-   HTML, CSS, JavaScript, Bootstrap, NodeJS
+   HTML, CSS, JavaScript, Bootstrap, NodeJS, React
 
   
   
