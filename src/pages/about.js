@@ -14,6 +14,7 @@ const About = () => {
         </section>
         <section className="row">
           <div className="col-md-10">
+            <h2>Biography</h2>
             {/* <!-- thumbnail image --> */}
             <img
               src={Headshot}
@@ -35,6 +36,33 @@ const About = () => {
               to contact me please use links below or the form on the contact
               page.
             </p>
+
+            <h2>
+             Technologies
+            </h2>
+            <ul>
+              <li>
+                REACT
+              </li>
+              <li>
+                MongoDB and MySQL
+              </li>
+              <li>
+                Node js
+              </li>
+              <li>
+                Express js
+              </li>
+              <li>
+                HTML 5 and CSS 3
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                and currently studying Python
+              </li>
+            </ul>
             <h2>Links:</h2>
 
             <div className="row">
