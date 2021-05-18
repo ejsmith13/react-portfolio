@@ -10,13 +10,17 @@ const Contact = () => {
               Contact
             </h1>
           </section>
+          <p>
+            Please contact me at: <i className="strong">ejsmithwork@gmail.com</i>
+          </p>
+          {/*  
           <section>
             <form
               className="row"
               method="post"
               action="mailto:ejsmithwork@gmail.com"
             >
-              {/* <!-- name field --> */}
+             
               <section className="col-md-4 form-group nameField ">
                 <label for="name">Name</label>
                 <input
@@ -27,7 +31,7 @@ const Contact = () => {
                   placeholder="Name"
                 />
               </section>
-              {/* <!-- email field --> */}
+              {/* <!-- email field --> 
               <section className="col-md-4 form-group emailField ">
                 <label for="email">Email</label>
                 <input
@@ -38,7 +42,7 @@ const Contact = () => {
                   placeholder="email@email.com"
                 />
               </section>
-              {/* <!-- message field  --> */}
+              {/* <!-- message field  --> 
               <section className="col-md-8 form-group textField">
                 <label for="message">Message</label>
                 <textarea
@@ -48,7 +52,7 @@ const Contact = () => {
                   rows="4"
                 ></textarea>
               </section>
-              {/* <!-- submit button, gray background, white text --> */}
+              {/* <!-- submit button, gray background, white text --> 
               <section className="col-md-8">
                 <input
                   className="bg-secondary text-white"
@@ -58,6 +62,7 @@ const Contact = () => {
               </section>
             </form>
           </section>
+          */}
         </div>
       </main>
     </div>
