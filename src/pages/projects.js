@@ -6,18 +6,26 @@ import Password from "../assets/images/password_screenshot.png";
 import DayPlanner from "../assets/images/screenshot_day_planner.png";
 import Holiday from "../assets/images/screenshot_holiday_saved.png";
 import Project from "../components/project";
+import Rcity from "../assets/images/screenshot_rcity.png"
+
 
 class Projects extends Component {
   state = {
     projects: [
       {
-        title: "Workout Logging App",
+        title: "RCity",
+        link: "https://murmuring-headland-42989.herokuapp.com/",
+        image: Rcity,
+        gh: "https://github.com/ejsmith13/city_app",
+      },
+      {
+        title: "Workout Crusher",
         link: "https://ancient-river-16818.herokuapp.com/",
         image: Workout,
         gh: "https://github.com/ejsmith13/workout-crusher",
       },
       {
-        title: "Burger Loging App",
+        title: "Burger Logging App",
         link: "https://glacial-coast-49781.herokuapp.com/",
         image: Burger,
         gh: "https://github.com/ejsmith13/burger_app",
@@ -41,7 +49,7 @@ class Projects extends Component {
         gh: "https://github.com/ejsmith13/day_planner",
       },
       {
-        title: "Burger Loging App",
+        title: "Holiday Movie Finder",
         link: "https://vpatt1031.github.io/movie_roullette/",
         image: Holiday,
         gh: "https://github.com/vpatt1031/movie_roullette",
