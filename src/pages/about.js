@@ -79,12 +79,12 @@ const About = () => {
                   id="linkedIn"
                   href="https://www.linkedin.com/in/ethan-smith-b75b8183/"
                 >
-                  Linkedin
+                  LinkedIn
                 </a>
               </figure>
               <figure className="col-md-4">
                 <a id="github" href="https://github.com/ejsmith13">
-                  Github
+                  GitHub
                 </a>
               </figure>
             </div>
