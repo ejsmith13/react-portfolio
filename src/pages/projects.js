@@ -6,15 +6,14 @@ import Password from "../assets/images/password_screenshot.png";
 import DayPlanner from "../assets/images/screenshot_day_planner.png";
 import Holiday from "../assets/images/screenshot_holiday_saved.png";
 import Project from "../components/project";
-import Rcity from "../assets/images/screenshot_rcity.png"
-
+import Rcity from "../assets/images/screenshot_rcity.png";
 
 class Projects extends Component {
   state = {
     projects: [
       {
         title: "RCity",
-        link: "https://murmuring-headland-42989.herokuapp.com/",
+        link: "https://rcity.herokuapp.com/",
         image: Rcity,
         gh: "https://github.com/ejsmith13/city_app",
       },
@@ -67,7 +66,7 @@ class Projects extends Component {
             <p>Click the images below to visit each site.</p>
           </section>
           <section class="row">
-           <figure>
+            <figure>
               <Project projects={this.state.projects} />
             </figure>
           </section>
